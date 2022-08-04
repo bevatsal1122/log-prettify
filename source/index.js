@@ -14,7 +14,6 @@ export default class decorator {
     marginRight = "0px",
     padding = "0px",
     paddingTop = "0px",
-    paddingBottom = "0px",
     paddingLeft = "0px",
     paddingRight = "0px",
     fontSize = "12.5px",
@@ -30,11 +29,10 @@ export default class decorator {
         if (padding !== "0px")
         {
             paddingTop = (paddingTop !== "0px" ? paddingTop : padding);
-            paddingBottom = (paddingBottom !== "0px" ? paddingBottom : padding);
             paddingLeft = (paddingLeft !== "0px" ? paddingLeft : padding);
             paddingRight = (paddingRight !== "0px" ? paddingRight : padding);
         }
-        let styledText = `color: ${color}; background-color: ${backgroundColor}; font-size: ${fontSize}; margin: ${margin}; padding: ${padding}; margin-left: ${marginLeft}; margin-right: ${marginRight}; margin-top: ${marginTop}; margin-bottom: ${marginBottom}; padding-left: ${paddingLeft}; padding-right: ${paddingRight}; padding-top: ${paddingTop}; padding-bottom: ${marginBottom};`;
+        let styledText = `color: ${color}; background-color: ${backgroundColor}; font-size: ${fontSize}; margin: ${margin}; padding: ${padding}; margin-left: ${marginLeft}; margin-right: ${marginRight}; margin-top: ${marginTop}; margin-bottom: ${marginBottom}; padding-left: ${paddingLeft}; padding-right: ${paddingRight}; padding-top: ${paddingTop};`;
 
         this.consoleLog({text, styledText});
     }
