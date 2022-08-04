@@ -33,6 +33,7 @@
 
 </strong>
 <img src="./assets/images/image0.png" alt="Sample Output Image"/>
+<br />
 
 ### Log Success Message
 
@@ -42,6 +43,7 @@
 
 </strong>
 <img src="./assets/images/image1.png" alt="Sample Output Image"/>
+<br />
 
 ### Log Warning Message
 
@@ -51,6 +53,7 @@
 
 </strong>
 <img src="./assets/images/image2.png" alt="Sample Output Image"/>
+<br />
 
 ### Log Danger Message
 
@@ -60,3 +63,4 @@
 
 </strong>
 <img src="./assets/images/image3.png" alt="Sample Output Image"/>
+<br />
