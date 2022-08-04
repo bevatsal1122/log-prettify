@@ -1,0 +1,21 @@
+{
+  "name": "log-prettify",
+  "version": "1.0.0",
+  "description": "Library for Decorating Logs in Console",
+  "main": "source/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bevatsal1122/log-prettify.git"
+  },
+  "author": "Vatsal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bevatsal1122/log-prettify/issues"
+  },
+  "homepage": "https://github.com/bevatsal1122/log-prettify#readme",
+  "files": ["source/**/*"]
+}
